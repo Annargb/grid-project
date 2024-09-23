@@ -11,6 +11,13 @@
   height: 24px;
 }
 
+.header-container {
+  display: grid;
+  column-gap: 8px;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+}
+
 .label {
   color: var(--orange);
   font-family: var(--common-font);
